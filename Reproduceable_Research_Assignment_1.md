@@ -100,7 +100,7 @@ median_steps_byday <- median(summary$total_steps, na.rm = TRUE)
 g1 = ggplot(summary, aes(x = total_steps))
 g2 = geom_histogram(colour = "black", fill = "dark green", binwidth = 2800) 
 g3 = ggtitle('Histogram Plot of the Steps Taken per Day')
-g4 = labs(y = "Average Steps per Day @ the Interval")
+g4 = labs(y = "Frequency")
 g5 = labs(x = "Number of Steps")
 g6 = theme(plot.title = element_text(size = rel(1.8)))
 
@@ -182,7 +182,7 @@ There are 2304 number of rows with missing values in the dataset.
 g1 = ggplot(summary, aes(x = total_steps))
 g2 = geom_histogram(colour = "black", fill = "dark blue", binwidth = 2800) 
 g3 = ggtitle('Histogram Plot of the Steps Taken per Day')
-g4 = labs(y = "Average Steps per Day @ the Interval")
+g4 = labs(y = "Frequency")
 g5 = labs(x = "Number of Steps")
 g6 = theme(plot.title = element_text(size = rel(1.8)))
 

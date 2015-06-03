@@ -127,7 +127,7 @@ median_steps_byday &lt;- median(summary$total_steps, na.rm = TRUE)</code></pre>
 g1 = ggplot(summary, aes(x = total_steps))
 g2 = geom_histogram(colour = &quot;black&quot;, fill = &quot;dark green&quot;, binwidth = 2800) 
 g3 = ggtitle(&#39;Histogram Plot of the Steps Taken per Day&#39;)
-g4 = labs(y = &quot;Average Steps per Day @ the Interval&quot;)
+g4 = labs(y = &quot;Frequency&quot;)
 g5 = labs(x = &quot;Number of Steps&quot;)
 g6 = theme(plot.title = element_text(size = rel(1.8)))
 
@@ -196,7 +196,7 @@ new_median_steps_byday = median(summary$total_steps, na.rm = TRUE)</code></pre>
 g1 = ggplot(summary, aes(x = total_steps))
 g2 = geom_histogram(colour = &quot;black&quot;, fill = &quot;dark blue&quot;, binwidth = 2800) 
 g3 = ggtitle(&#39;Histogram Plot of the Steps Taken per Day&#39;)
-g4 = labs(y = &quot;Average Steps per Day @ the Interval&quot;)
+g4 = labs(y = &quot;Frequency&quot;)
 g5 = labs(x = &quot;Number of Steps&quot;)
 g6 = theme(plot.title = element_text(size = rel(1.8)))
 
